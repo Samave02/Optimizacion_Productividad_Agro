@@ -13,7 +13,7 @@ Este proyecto aplica la metodología CRISP-DM para el análisis de datos relacio
 
 Evaluar la efectividad de las técnicas de machine learning (ML) en la mejora de la productividad agrícola en Boyacá.
 
-## 🛠️ Herramientas Utilizadas
+## Herramientas Utilizadas
 
 - Python (Pandas, Matplotlib, Scikit-learn, Seaborn)
 - Jupyter Notebooks
@@ -23,19 +23,31 @@ Evaluar la efectividad de las técnicas de machine learning (ML) en la mejora de
 ## Fases CRISP-DM Implementadas
 
 1. **Comprensión del Negocio**  
-   -identificación de los objetivos y requisitos del proyecto.
+   El objetivo general del proyecto es evaluar la efectividad de los modelos de ML en la predicción y en la optimización de la productividad agrícola. Para esto, se definió los siguientes objetivos:
+
+    - Implementar modelos de machine learning para predecir la productividad agrícola y detectar factores limitantes, como problemas de suelo o riesgos climáticos, considerando condiciones agroclimáticas de Boyacá.
+    - Interpretar los resultados del sistema de optimización y ajustar las recomendaciones basadas en las condiciones específicas de cada zona agrícola de Boyacá.
+    - Analizar el impacto de las recomendaciones generadas por los modelos en la toma de decisiones de los agricultores y su efectividad en la mejora de la productividad agrícola.
+
 
 2. **Comprensión de los Datos**  
-   - Exploración de fuentes de datos como IDEAM y ArgoNet.
+   En el proceso de recopilación de datos, luego de revisar fuentes bibliográficas, se optó por trabajar con información relacionada con **Agricultura y Desarrollo Rural**, y datos provenientes de **redes meteorológicas**, tales como:
 
-3. **Preparación de los Datos**  
-   -  limpieza y transformación de datos para el modelado.
+- Temperatura mínima del aire  
+- Velocidad del viento  
+- Precipitaciones
 
-4. **Modelado**  
-   - [Pendiente o en proceso]:selección y aplicación de varias técnicas de modelado.
+Las fuentes utilizadas fueron:
 
-5. **Evaluación**  
-   - [Pendiente o en proceso]: Interpretación de resultados y validación con objetivos del negocio.
+- [IDEAM](http://dhime.ideam.gov.co/webgis/home/) (*Instituto de Hidrología, Meteorología y Estudios Ambientales*), mediante la plataforma de **Datos Abiertos Colombia**.  
+- [Agronet](https://www.agronet.gov.co/Paginas/inicio.aspx), portal del **Ministerio de Agricultura y Desarrollo Rural**.
+
+3. **Preparación de los Datos**
+  - `Limpieza de datos/`: Conjuntos de datos utilizados en cada uno de los procesos.
+5. **Modelado**  
+   - `Modelado/` :selección y aplicación de varias técnicas de modelado.
+6. **Evaluación**  
+   - En desarrollo
 
 ## Fuentes de Datos
 
