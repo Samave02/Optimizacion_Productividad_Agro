@@ -55,3 +55,6 @@ Las fuentes utilizadas fueron:
 
 - [Datos IDEAM - Precipitación](http://www.ideam.gov.co)
 - [Datos VECOL - Agroquímicos](https://www.datos.gov.co/d/y2zk-c694)
+- [Datos IDEAM - Velocidad del Viento](https://www.datos.gov.co/resource/sgfv-3yp8)
+- [Datos IDEAM - Temperatura](https://www.datos.gov.co/resource/afdg-3zpb)
+- [Datos Agronet](https://www.datos.gov.co/api/odata/v4/uejq-wxrr)
