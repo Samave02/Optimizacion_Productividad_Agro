@@ -47,7 +47,9 @@ Las fuentes utilizadas fueron:
 5. **Modelado**  
    - `Modelado/` :selección y aplicación de varias técnicas de modelado.
 6. **Evaluación**  
-   - En desarrollo
+   - `Evaluación/`: 
+7. **Implementación**  
+   - `Implementación/`
 
 ## Fuentes de Datos
 
